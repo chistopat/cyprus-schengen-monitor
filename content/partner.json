@@ -1,0 +1,30 @@
+{
+  "url": "https://trawelpulse.com/",
+  "anchor": "citizenship-preview",
+  "utm_source": "cyprus_schengen_monitor",
+  "utm_medium": "referral",
+  "utm_campaign": "cyprus_citizenship",
+  "locales": {
+    "ru": {
+      "destination_language": "ru",
+      "label": "Партнёр · Trawel Pulse",
+      "title": "Устал ждать, пока Кипр войдёт в Шенген?",
+      "description": "Посчитай ориентировочную дату подачи на гражданство Кипра с Trawel Pulse.",
+      "action": "Рассчитать срок подачи"
+    },
+    "en": {
+      "destination_language": "en",
+      "label": "Partner · Trawel Pulse",
+      "title": "Tired of waiting for Cyprus to join Schengen?",
+      "description": "Estimate when you could apply for Cypriot citizenship with Trawel Pulse.",
+      "action": "Calculate my timeline"
+    },
+    "el": {
+      "destination_language": "en",
+      "label": "Συνεργάτης · Trawel Pulse",
+      "title": "Κουράστηκες να περιμένεις την ένταξη της Κύπρου στη Σένγκεν;",
+      "description": "Δες μια εκτίμηση για το πότε μπορείς να υποβάλεις αίτηση για κυπριακή υπηκοότητα με το Trawel Pulse.",
+      "action": "Υπολόγισε την ημερομηνία"
+    }
+  }
+}

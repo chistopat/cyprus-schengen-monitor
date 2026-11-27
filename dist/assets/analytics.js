@@ -46,7 +46,11 @@
   for (const button of document.querySelectorAll('[data-analytics-settings]')) button.addEventListener('click', () => { panel.hidden = false; });
   document.addEventListener('click', e => {
     const link = e.target.closest('a[href]');
-    if (link && link.origin !== location.origin) event('source_click', {link_domain: link.hostname, link_url: link.origin + link.pathname});
+    if (link && link.dataset.partner) {
+      event('partner_click', {partner: link.dataset.partner, placement: 'top_banner', source_page: link.dataset.partnerPage, link_url: link.href});
+    } else if (link && link.origin !== location.origin) {
+      event('source_click', {link_domain: link.hostname, link_url: link.origin + link.pathname});
+    }
     const filter = e.target.closest('[data-filter]');
     if (filter) event('timeline_filter', {filter: filter.dataset.filter});
   });

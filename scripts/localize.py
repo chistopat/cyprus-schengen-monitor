@@ -2,7 +2,7 @@
 from html import escape
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urljoin
+from urllib.parse import urlencode, urljoin
 import json
 import re
 import xml.etree.ElementTree as ET
@@ -14,12 +14,35 @@ NAMES = {'ru': 'Кипрский монитор', 'en': 'Cyprus Monitor', 'el': 
 BASE_TEXT = json.loads((ROOT / 'translations/ru.json').read_text())
 SEO = json.loads((ROOT / 'content/seo.json').read_text())
 SITE = json.loads((ROOT / 'site.json').read_text())
+PARTNER = json.loads((ROOT / 'content/partner.json').read_text())
 BASE = SITE['url'].rstrip('/') + '/'
 FILES = list(SEO['ru'])
 
 
 def page_url(lang, filename):
     return BASE + ('' if lang == 'ru' else lang + '/') + ('' if filename == 'index.html' else filename)
+
+
+def partner_banner(lang, filename):
+    copy = PARTNER['locales'][lang]
+    page = Path(filename).stem
+    query = urlencode({
+        'utm_source': PARTNER['utm_source'],
+        'utm_medium': PARTNER['utm_medium'],
+        'utm_campaign': PARTNER['utm_campaign'],
+        'utm_content': LANGS[lang][0] + '_' + page,
+    })
+    destination = urljoin(PARTNER['url'], copy['destination_language'])
+    href = destination + '?' + query + '#' + PARTNER['anchor']
+    return (
+        '<aside class="partner-banner container" aria-labelledby="partner-title">'
+        '<div class="partner-copy"><p class="partner-label">' + escape(copy['label']) + '</p>'
+        '<h2 id="partner-title">' + escape(copy['title']) + '</h2>'
+        '<p class="partner-description">' + escape(copy['description']) + '</p></div>'
+        '<a class="partner-action" data-partner="trawelpulse" data-partner-page="' + page + '" '
+        'href="' + escape(href, quote=True) + '" rel="sponsored noopener noreferrer">'
+        + escape(copy['action']) + ' <span aria-hidden="true">↗</span></a></aside>'
+    )
 
 
 class Translator(HTMLParser):
@@ -136,6 +159,8 @@ def localize():
                 switches.append(f'<a href="{href}" lang="{other_code}" hreflang="{other_code}"{current}>{label}</a>')
             nav_label = {'ru': 'Язык', 'en': 'Language', 'el': 'Γλώσσα'}[lang]
             body = body.replace('</header>', f'<nav class="language-nav container" aria-label="{nav_label}">' + ' · '.join(switches) + '</nav></header>')
+            if filename != 'privacy.html':
+                body = body.replace('</header>', '</header>' + partner_banner(lang, filename), 1)
             (output / filename).write_text(f'<!DOCTYPE html>\n<html lang="{code}"><head>\n{head(lang, filename)}\n</head><body>{body}</body></html>\n')
     # One sitemap includes every canonical language URL and reciprocal alternates.
     ns = 'http://www.sitemaps.org/schemas/sitemap/0.9'

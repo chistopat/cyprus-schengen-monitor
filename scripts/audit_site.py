@@ -113,6 +113,9 @@ entries = sitemap.findall('s:url', ns)
 require({e.find('s:loc', ns).text for e in entries} == set(urls), paths[0], 'sitemap URL mismatch')
 for entry in entries:
     require({a.attrib['hreflang'] for a in entry.findall('x:link', ns)} == EXPECTED_LANGS, paths[0], 'sitemap alternates incomplete')
+plain_entries = ET.parse(DIST / 'sitemap-pages.xml').findall('s:url', ns)
+plain_urls = [e.find('s:loc', ns).text for e in plain_entries]
+require(len(plain_urls) == len(urls) and set(plain_urls) == set(urls), paths[0], 'fallback sitemap URL mismatch')
 report = {'pages_checked': len(pages), 'errors': errors, 'metadata': rows}
 (ROOT / 'docs/metadata-audit.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
 print(json.dumps({'pages_checked': len(pages), 'errors': errors}, ensure_ascii=False, indent=2))

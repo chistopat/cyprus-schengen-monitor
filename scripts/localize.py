@@ -152,6 +152,16 @@ def localize():
                 ET.SubElement(url, f'{{{xhtml}}}link', {'rel': 'alternate', 'hreflang': other_code, 'href': page_url(other, filename)})
             ET.SubElement(url, f'{{{xhtml}}}link', {'rel': 'alternate', 'hreflang': 'x-default', 'href': page_url('en', filename)})
     ET.ElementTree(urlset).write(DIST / 'sitemap.xml', encoding='utf-8', xml_declaration=True)
+    # Minimal protocol-only fallback, independently fetchable in Search Console.
+    plain = ET.Element(f'{{{ns}}}urlset')
+    for lang in LANGS:
+        for filename in FILES:
+            url = ET.SubElement(plain, f'{{{ns}}}url')
+            ET.SubElement(url, f'{{{ns}}}loc').text = page_url(lang, filename)
+            ET.SubElement(url, f'{{{ns}}}lastmod').text = '2026-11-27'
+    ET.indent(plain, space='  ')
+    ET.ElementTree(plain).write(DIST / 'sitemap-pages.xml', encoding='utf-8', xml_declaration=True)
+
 
 
 if __name__ == '__main__':

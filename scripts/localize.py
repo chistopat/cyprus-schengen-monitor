@@ -4,6 +4,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlencode, urljoin
 import json
+import hashlib
 import re
 import xml.etree.ElementTree as ET
 
@@ -17,6 +18,10 @@ SITE = json.loads((ROOT / 'site.json').read_text())
 PARTNER = json.loads((ROOT / 'content/partner.json').read_text())
 BASE = SITE['url'].rstrip('/') + '/'
 FILES = list(SEO['ru'])
+
+
+def asset_version(filename):
+    return hashlib.sha256((DIST / 'assets' / filename).read_bytes()).hexdigest()[:12]
 
 
 def page_url(lang, filename):
@@ -125,9 +130,9 @@ def head(lang, filename):
             {'@type': 'ListItem', 'position': 2, 'name': title, 'item': canonical}]})
     tags.append('<script type="application/ld+json">' + json.dumps({'@context': 'https://schema.org', '@graph': graph}, ensure_ascii=False).replace('<', '\\u003c') + '</script>')
     tags.extend([f'<link rel="icon" href="{asset}assets/mark.svg" type="image/svg+xml">',
-                 f'<link rel="stylesheet" href="{asset}assets/site.css">',
-                 f'<script defer src="{asset}assets/site.js"></script>',
-                 f'<script defer src="{asset}assets/analytics.js" data-measurement-id="{escape(SITE.get("measurement_id", ""), quote=True)}"></script>'])
+                 f'<link rel="stylesheet" href="{asset}assets/site.css?v={asset_version("site.css")}">',
+                 f'<script defer src="{asset}assets/site.js?v={asset_version("site.js")}"></script>',
+                 f'<script defer src="{asset}assets/analytics.js?v={asset_version("analytics.js")}" data-measurement-id="{escape(SITE.get("measurement_id", ""), quote=True)}"></script>'])
     return '\n'.join(tags)
 
 

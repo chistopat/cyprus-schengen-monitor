@@ -15,8 +15,8 @@
       "page": "el/index.html",
       "lang": "el-CY",
       "canonical": "https://chistopat.github.io/cyprus-schengen-monitor/el/",
-      "title": "Κύπρος και Σένγκεν: ένταξη, νέα και χρονοδιάγραμμα",
-      "title_characters": 50,
+      "title": "Κύπρος και Σένγκεν: νέα | Cyprus Schengen Monitor",
+      "title_characters": 49,
       "description": "Είναι η Κύπρος στη Σένγκεν και πότε αναμένεται η ένταξη; Κατάσταση στις 27 Νοεμβρίου 2026, στόχος 2027, εξελίξεις και επίσημα έγγραφα της ΕΕ.",
       "description_characters": 141
     },
@@ -69,8 +69,8 @@
       "page": "en/index.html",
       "lang": "en",
       "canonical": "https://chistopat.github.io/cyprus-schengen-monitor/en/",
-      "title": "Is Cyprus in Schengen? Status, News and Entry Timeline",
-      "title_characters": 54,
+      "title": "Cyprus Schengen Monitor | Status, News and Entry Timeline",
+      "title_characters": 57,
       "description": "Is Cyprus in Schengen, and when could it join? Status as of 27 November 2026, the 2027 target, latest developments and links to EU documents.",
       "description_characters": 141
     },
@@ -123,8 +123,8 @@
       "page": "index.html",
       "lang": "ru",
       "canonical": "https://chistopat.github.io/cyprus-schengen-monitor/",
-      "title": "Кипр и Шенген: статус, новости и сроки вступления",
-      "title_characters": 49,
+      "title": "Кипр и Шенген: статус и новости | Cyprus Schengen Monitor",
+      "title_characters": 57,
       "description": "Входит ли Кипр в Шенген и когда ожидается вступление? Статус на 27 ноября 2026, ориентир 2027 года, новости и ссылки на документы ЕС.",
       "description_characters": 133
     },

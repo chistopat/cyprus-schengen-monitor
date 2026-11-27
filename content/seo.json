@@ -1,7 +1,7 @@
 {
   "ru": {
     "index.html": {
-      "title": "Кипр и Шенген: статус, новости и сроки вступления",
+      "title": "Кипр и Шенген: статус и новости | Cyprus Schengen Monitor",
       "description": "Входит ли Кипр в Шенген и когда ожидается вступление? Статус на 27 ноября 2026, ориентир 2027 года, новости и ссылки на документы ЕС."
     },
     "timeline.html": {
@@ -27,7 +27,7 @@
   },
   "en": {
     "index.html": {
-      "title": "Is Cyprus in Schengen? Status, News and Entry Timeline",
+      "title": "Cyprus Schengen Monitor | Status, News and Entry Timeline",
       "description": "Is Cyprus in Schengen, and when could it join? Status as of 27 November 2026, the 2027 target, latest developments and links to EU documents."
     },
     "timeline.html": {
@@ -53,7 +53,7 @@
   },
   "el": {
     "index.html": {
-      "title": "Κύπρος και Σένγκεν: ένταξη, νέα και χρονοδιάγραμμα",
+      "title": "Κύπρος και Σένγκεν: νέα | Cyprus Schengen Monitor",
       "description": "Είναι η Κύπρος στη Σένγκεν και πότε αναμένεται η ένταξη; Κατάσταση στις 27 Νοεμβρίου 2026, στόχος 2027, εξελίξεις και επίσημα έγγραφα της ΕΕ."
     },
     "timeline.html": {

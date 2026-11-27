@@ -36,6 +36,8 @@ See `docs/seo-audit.md` for keyword assumptions, verification limits and the mig
 
 A minimal XML fallback is available at `sitemap-pages.xml`. Both maps cover the same 18 canonical URLs. See `docs/sitemap-investigation.md` for the distinction between successful Google live retrieval and the still-pending sitemap processing report.
 
+`sitemap.txt` provides the same 18 URLs in Google's supported text format, independently of XML parsing. Domain-root `robots.txt` is maintained in `chistopat/chistopat.github.io`; the project-directory copy is not used by crawlers. Sitemap submission acceptance is not proof that Google processed the map.
+
 ## Partner banner
 
 `content/partner.json` controls the Trawel Pulse copy, destination languages and UTM campaign. The banner appears below the header on all content pages; privacy pages have no promotion. RU links to `/ru`, EN to `/en`. Greek copy links to `/en` because the destination currently supports only Russian and English.

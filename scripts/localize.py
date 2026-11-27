@@ -12,7 +12,7 @@ import xml.etree.ElementTree as ET
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / 'dist'
 LANGS = {'ru': ('ru', 'ru_RU'), 'en': ('en', 'en_GB'), 'el': ('el-CY', 'el_CY')}
-NAMES = {'ru': 'Кипрский монитор', 'en': 'Cyprus Monitor', 'el': 'Παρατηρητήριο Κύπρου'}
+NAMES = {'ru': 'Кипрский монитор', 'en': 'Cyprus Schengen Monitor', 'el': 'Παρατηρητήριο Κύπρου'}
 BASE_TEXT = json.loads((ROOT / 'translations/ru.json').read_text())
 SEO = json.loads((ROOT / 'content/seo.json').read_text())
 SITE = json.loads((ROOT / 'site.json').read_text())
@@ -242,6 +242,10 @@ def localize():
             ET.SubElement(url, f'{{{ns}}}lastmod').text = '2026-11-27'
     ET.indent(plain, space='  ')
     ET.ElementTree(plain).write(DIST / 'sitemap-pages.xml', encoding='utf-8', xml_declaration=True)
+    # Google also accepts one canonical URL per line, independently of XML parsing.
+    (DIST / 'sitemap.txt').write_text(''.join(
+        page_url(lang, filename) + '\n' for lang in LANGS for filename in FILES
+    ), encoding='utf-8')
 
 
 

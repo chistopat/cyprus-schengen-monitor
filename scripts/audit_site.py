@@ -116,6 +116,8 @@ for entry in entries:
 plain_entries = ET.parse(DIST / 'sitemap-pages.xml').findall('s:url', ns)
 plain_urls = [e.find('s:loc', ns).text for e in plain_entries]
 require(len(plain_urls) == len(urls) and set(plain_urls) == set(urls), paths[0], 'fallback sitemap URL mismatch')
+text_urls = (DIST / 'sitemap.txt').read_text(encoding='utf-8').splitlines()
+require(len(text_urls) == len(urls) and set(text_urls) == set(urls), paths[0], 'text sitemap URL mismatch')
 report = {'pages_checked': len(pages), 'errors': errors, 'metadata': rows}
 (ROOT / 'docs/metadata-audit.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n')
 print(json.dumps({'pages_checked': len(pages), 'errors': errors}, ensure_ascii=False, indent=2))

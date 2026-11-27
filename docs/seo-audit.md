@@ -34,7 +34,7 @@ Observed result examples, checked on the audit date: [RU coverage](https://gk-la
 - The footer discloses that this is not a media outlet, that content was collected and prepared by AI, and that the authors disclaim responsibility for accuracy and consequences of use. Political targets remain separate from adopted legal dates.
 - Static HTML supplies the content without JavaScript. JavaScript adds timeline search/filtering, fragment opening and consent-based analytics.
 - One sitemap contains all 18 canonical URLs and language relationships. All page, asset and fragment links are checked during deployment.
-- Search Console verification metadata is configurable and present. Verification and sitemap submission require the production URL to be live.
+- Search Console verification metadata is configurable and present. Search Console ownership was verified using the HTML tag. The sitemap was submitted, and Google accepted a priority indexing request for the Russian homepage. Indexing itself is pending.
 
 ## Validation
 
@@ -46,7 +46,7 @@ Title and description lengths are editorial checks, not fixed Google limits. Sea
 
 GitHub project Pages is served below `/cyprus-schengen-monitor/`. A `robots.txt` there is informational: crawlers look for `https://chistopat.github.io/robots.txt`. The existing user homepage repository is not changed by this migration. Direct submission of the full sitemap URL in Search Console handles discovery without changing another site's robots file. Root-level crawl restrictions must still be checked after deployment.
 
-The previous host should point to the matching production pages after the GitHub deployment succeeds. A static HTML redirect is weaker than a server-side 301; the native static host does not expose an HTTP redirect setting in the current workflow. Keep this limitation explicit.
+The previous ChatGPT Site is unchanged at the user’s explicit request. No redirects or canonical changes were published there. The GitHub site uses self-canonical URLs.
 
 ## Source and guidance references
 
@@ -60,3 +60,13 @@ The previous host should point to the matching production pages after the GitHub
 - [Official Google Analytics MCP](https://github.com/googleanalytics/google-analytics-mcp)
 
 An existing source-data error was also corrected in all languages: the RIK interview of 10 October names Deputy Minister Nicolas Ioannides, not Makis Ioannides. [RIK interview](https://news.rik.cy/article/2026/10/10/plere-entaxe-tes-kupriakes-demokratias-ston-khoro-sengken-entos-tou-2027-anamenei-e-kubernese/).
+
+## Integration verification
+
+GA4 account discovery and a realtime report succeeded through the official MCP for property `566046374` (`Cyprus Schengen Monitor`). The report contained `page_view`, `timeline_filter` and engagement events. This establishes that the connection can read received measurements; these counts are not a traffic baseline. The browser check confirmed zero external Google tag scripts before consent and one after acceptance.
+
+OAuth uses only `analytics.readonly`, with credentials stored outside Git and mode 0600. The personal OAuth application remains in Testing with one test user. Google expires Testing refresh tokens after seven days; this connection will need re-authorisation. [Google OAuth token-expiration rules](https://developers.google.com/identity/protocols/oauth2).
+
+Search Console accepted the sitemap submission and a priority indexing request for the Russian homepage. On the initial sitemap fetch, Search Console reported `Couldn't fetch`, although independent HTTPS requests returned HTTP 200 and valid XML. It was submitted once more after the successful live-page check. Sitemap processing and actual indexing remain external pending steps, not verified completion.
+
+The link to the original ChatGPT monitoring Page was removed from the public site at the user's request. The old ChatGPT Site itself is unchanged.

@@ -31,7 +31,7 @@ Observed result examples, checked on the audit date: [RU coverage](https://gk-la
 - Localised Open Graph and Twitter metadata, image alt text, image format and verified 1400×800 dimensions.
 - Accurate `WebPage`, `WebSite` and `BreadcrumbList` JSON-LD. No invented organisation, author, review, rating or official affiliation. The snapshot date is retained rather than refreshed automatically on every build.
 - Visible direct answers to membership/timing questions, links to official evidence and internal links to the forecast and timeline.
-- An independence statement distinguishes the monitor from EU and Cypriot authorities. Political targets remain separate from adopted legal dates.
+- The footer discloses that this is not a media outlet, that content was collected and prepared by AI, and that the authors disclaim responsibility for accuracy and consequences of use. Political targets remain separate from adopted legal dates.
 - Static HTML supplies the content without JavaScript. JavaScript adds timeline search/filtering, fragment opening and consent-based analytics.
 - One sitemap contains all 18 canonical URLs and language relationships. All page, asset and fragment links are checked during deployment.
 - Search Console verification metadata is configurable and present. Verification and sitemap submission require the production URL to be live.

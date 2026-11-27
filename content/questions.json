@@ -2,28 +2,73 @@
   "ru": {
     "heading": "Кипр и Шенген: главные вопросы",
     "items": [
-      ["Входит ли Кипр в Шенген сейчас?", "По состоянию на 27 ноября 2026 года процесс вступления продолжается. По информации Еврокомиссии, Кипр участвует в шенгенском сотрудничестве, но Совет ЕС ещё не отменил контроль на внутренних границах.", "https://home-affairs.ec.europa.eu/policies/schengen/schengen-area_en", "Статус на сайте Еврокомиссии"],
-      ["Когда Кипр может вступить в Шенген?", "Рабочий прогноз мониторинга — 2027 год. Ориентир 1 июля отражает политическую позицию Греции; утверждённую дату нужно отличать от заявлений и прогнозов. Условия и возможные задержки разобраны в разделе прогноза.", "forecast.html", "Сценарии вступления"],
-      ["Как проверить последние новости о вступлении?", "В хронологии указаны даты событий, ссылки на источники и их уровень A–D. Документы, официальные заявления, публикации СМИ и аналитические выводы отмечены отдельно.", "timeline.html", "Хронология и источники"]
+      [
+        "Входит ли Кипр в Шенген сейчас?",
+        "По состоянию на 27 ноября 2026 года процесс вступления продолжается. По информации Еврокомиссии, Кипр участвует в шенгенском сотрудничестве, но Совет ЕС ещё не отменил контроль на внутренних границах.",
+        "https://home-affairs.ec.europa.eu/policies/schengen/schengen-area_en",
+        "Статус на сайте Еврокомиссии"
+      ],
+      [
+        "Когда Кипр может вступить в Шенген?",
+        "Рабочий прогноз мониторинга — 2027 год. Ориентир 1 июля отражает политическую позицию Греции; утверждённую дату нужно отличать от заявлений и прогнозов. Условия и возможные задержки разобраны в разделе прогноза.",
+        "forecast.html",
+        "Сценарии вступления"
+      ],
+      [
+        "Как проверить последние новости о вступлении?",
+        "В хронологии указаны даты событий, ссылки на источники и их уровень A–D. Документы, официальные заявления, публикации СМИ и аналитические выводы отмечены отдельно.",
+        "timeline.html",
+        "Хронология и источники"
+      ]
     ],
-    "disclaimer": "Независимый мониторинг. Сайт не представляет органы ЕС или правительство Кипра."
+    "disclaimer": "Мы не СМИ. Материалы собраны и подготовлены ИИ и могут содержать ошибки. Авторы не несут ответственности за точность материалов, их использование и связанные с этим последствия. Проверяйте информацию по первоисточникам."
   },
   "en": {
     "heading": "Cyprus and Schengen: key questions",
     "items": [
-      ["Is Cyprus in Schengen now?", "As of 27 November 2026, accession is still in progress. The European Commission says Cyprus participates in Schengen cooperation, but the EU Council has not yet abolished internal border checks.", "https://home-affairs.ec.europa.eu/policies/schengen/schengen-area_en", "Status on the Commission website"],
-      ["When could Cyprus join Schengen?", "The monitor’s working forecast is 2027. The 1 July target reflects Greece’s political position; an adopted date must be distinguished from statements and forecasts. The forecast page explains the conditions and possible delays.", "forecast.html", "Accession scenarios"],
-      ["How can I check the latest accession news?", "The timeline lists event dates, source links and evidence grades A–D. Documents, official statements, media reports and analytical conclusions are identified separately.", "timeline.html", "Timeline and sources"]
+      [
+        "Is Cyprus in Schengen now?",
+        "As of 27 November 2026, accession is still in progress. The European Commission says Cyprus participates in Schengen cooperation, but the EU Council has not yet abolished internal border checks.",
+        "https://home-affairs.ec.europa.eu/policies/schengen/schengen-area_en",
+        "Status on the Commission website"
+      ],
+      [
+        "When could Cyprus join Schengen?",
+        "The monitor’s working forecast is 2027. The 1 July target reflects Greece’s political position; an adopted date must be distinguished from statements and forecasts. The forecast page explains the conditions and possible delays.",
+        "forecast.html",
+        "Accession scenarios"
+      ],
+      [
+        "How can I check the latest accession news?",
+        "The timeline lists event dates, source links and evidence grades A–D. Documents, official statements, media reports and analytical conclusions are identified separately.",
+        "timeline.html",
+        "Timeline and sources"
+      ]
     ],
-    "disclaimer": "Independent monitoring. This site does not represent EU institutions or the government of Cyprus."
+    "disclaimer": "This site is not a media outlet. Content was collected and prepared by AI and may contain errors. The authors accept no responsibility for its accuracy, its use or any resulting consequences. Check information against the original sources."
   },
   "el": {
     "heading": "Κύπρος και Σένγκεν: βασικά ερωτήματα",
     "items": [
-      ["Είναι η Κύπρος στη Σένγκεν σήμερα;", "Στις 27 Νοεμβρίου 2026 η διαδικασία ένταξης βρίσκεται ακόμη σε εξέλιξη. Σύμφωνα με την Ευρωπαϊκή Επιτροπή, η Κύπρος συμμετέχει στη συνεργασία Σένγκεν, αλλά το Συμβούλιο της ΕΕ δεν έχει ακόμη καταργήσει τους ελέγχους στα εσωτερικά σύνορα.", "https://home-affairs.ec.europa.eu/policies/schengen/schengen-area_en", "Κατάσταση στον ιστότοπο της Επιτροπής"],
-      ["Πότε μπορεί να ενταχθεί η Κύπρος στη Σένγκεν;", "Η βασική εκτίμηση του παρατηρητηρίου είναι το 2027. Ο στόχος της 1ης Ιουλίου αποτυπώνει την πολιτική θέση της Ελλάδας. Μια εγκεκριμένη ημερομηνία διαφέρει από δηλώσεις και εκτιμήσεις. Η ενότητα εκτιμήσεων εξηγεί τις προϋποθέσεις και τις πιθανές καθυστερήσεις.", "forecast.html", "Σενάρια ένταξης"],
-      ["Πώς ελέγχω τα τελευταία νέα για την ένταξη;", "Το χρονολόγιο αναφέρει ημερομηνίες γεγονότων, συνδέσμους πηγών και κατηγορίες τεκμηρίωσης A–D. Έγγραφα, επίσημες δηλώσεις, δημοσιεύματα και αναλυτικά συμπεράσματα επισημαίνονται χωριστά.", "timeline.html", "Χρονολόγιο και πηγές"]
+      [
+        "Είναι η Κύπρος στη Σένγκεν σήμερα;",
+        "Στις 27 Νοεμβρίου 2026 η διαδικασία ένταξης βρίσκεται ακόμη σε εξέλιξη. Σύμφωνα με την Ευρωπαϊκή Επιτροπή, η Κύπρος συμμετέχει στη συνεργασία Σένγκεν, αλλά το Συμβούλιο της ΕΕ δεν έχει ακόμη καταργήσει τους ελέγχους στα εσωτερικά σύνορα.",
+        "https://home-affairs.ec.europa.eu/policies/schengen/schengen-area_en",
+        "Κατάσταση στον ιστότοπο της Επιτροπής"
+      ],
+      [
+        "Πότε μπορεί να ενταχθεί η Κύπρος στη Σένγκεν;",
+        "Η βασική εκτίμηση του παρατηρητηρίου είναι το 2027. Ο στόχος της 1ης Ιουλίου αποτυπώνει την πολιτική θέση της Ελλάδας. Μια εγκεκριμένη ημερομηνία διαφέρει από δηλώσεις και εκτιμήσεις. Η ενότητα εκτιμήσεων εξηγεί τις προϋποθέσεις και τις πιθανές καθυστερήσεις.",
+        "forecast.html",
+        "Σενάρια ένταξης"
+      ],
+      [
+        "Πώς ελέγχω τα τελευταία νέα για την ένταξη;",
+        "Το χρονολόγιο αναφέρει ημερομηνίες γεγονότων, συνδέσμους πηγών και κατηγορίες τεκμηρίωσης A–D. Έγγραφα, επίσημες δηλώσεις, δημοσιεύματα και αναλυτικά συμπεράσματα επισημαίνονται χωριστά.",
+        "timeline.html",
+        "Χρονολόγιο και πηγές"
+      ]
     ],
-    "disclaimer": "Ανεξάρτητη παρακολούθηση. Ο ιστότοπος δεν εκπροσωπεί θεσμούς της ΕΕ ή την κυβέρνηση της Κύπρου."
+    "disclaimer": "Ο ιστότοπος δεν αποτελεί μέσο ενημέρωσης. Το περιεχόμενο συλλέχθηκε και συντάχθηκε από τεχνητή νοημοσύνη και μπορεί να περιέχει λάθη. Οι συντάκτες δεν αναλαμβάνουν ευθύνη για την ακρίβεια, τη χρήση του ή τυχόν συνέπειες. Ελέγχετε τις πληροφορίες στις πρωτογενείς πηγές."
   }
 }

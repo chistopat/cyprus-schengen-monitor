@@ -28,7 +28,7 @@ The GitHub Actions Pages workflow builds the website, audits its metadata and li
 
 ## Analytics and search
 
-GA4 uses Measurement ID `G-TPP3V2T4J9`. Analytics loads only after consent; preview hosts do not send events. Tracked interactions include page views, source-link clicks, timeline filters and opening timeline entries. On-site search text is not sent. Visitors can change consent in the footer. Advertising personalisation and Google Signals are disabled in the tag configuration.
+GA4 uses Measurement ID `G-TPP3V2T4J9`. Analytics loads only after consent; preview hosts do not send events. Tracked interactions include page views, source-link clicks, timeline filters and opening timeline entries. On-site search text is not sent. Visitors can change consent on the privacy page. Advertising personalisation and Google Signals are disabled in the tag configuration.
 
 The official Google Analytics MCP is configured separately in the user's Codex settings. Its OAuth credentials must remain outside this repository. Adding an MCP entry alone does not establish authenticated access.
 

@@ -119,6 +119,10 @@ def localize():
             translator = Translator(lang)
             translator.feed(body)
             body = ''.join(translator.out)
+            if lang == 'ru':
+                body = body.replace('Разрешить Google Analytics? Это помогает понять, какие материалы полезны. ', 'Разрешить cookies Google Analytics для статистики посещений? ')
+                body = body.replace('Настройки аналитики', 'Настройки cookies')
+                body = body.replace('>Разрешить</button>', '>Принять</button>').replace('>Отказаться</button>', '>Отклонить</button>')
             q = questions[lang]
             if filename == 'index.html':
                 articles = ''.join('<article class="note"><h3>' + escape(title) + '</h3><div><p>' + escape(answer) + '</p><a href="' + escape(href, quote=True) + '">' + escape(label) + '</a></div></article>' for title, answer, href, label in q['items'])

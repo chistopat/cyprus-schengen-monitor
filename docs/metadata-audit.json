@@ -53,8 +53,8 @@
       "canonical": "https://chistopat.github.io/cyprus-schengen-monitor/el/timeline.html",
       "title": "Ένταξη Κύπρου στη Σένγκεν: χρονολόγιο και νέα",
       "title_characters": 45,
-      "description": "Χρονολόγιο ένταξης της Κύπρου στη Σένγκεν, 2023–2026: έγγραφα του Συμβουλίου, τεχνική προετοιμασία, πολιτικές δηλώσεις και πηγές.",
-      "description_characters": 129
+      "description": "Χρονολόγιο ένταξης της Κύπρου στη Σένγκεν, 1999–2026: διαπραγματεύσεις, έλεγχοι ετοιμότητας, SIS, έγγραφα της ΕΕ και πολιτικές δηλώσεις με πηγές.",
+      "description_characters": 145
     },
     {
       "page": "en/forecast.html",
@@ -107,7 +107,7 @@
       "canonical": "https://chistopat.github.io/cyprus-schengen-monitor/en/timeline.html",
       "title": "Cyprus Schengen Timeline: Accession News and Milestones",
       "title_characters": 55,
-      "description": "Track Cyprus’s Schengen accession from 2023 to 2026: Council documents, technical preparations, political statements and links to the sources.",
+      "description": "Track Cyprus’s Schengen accession from 1999 to 2026: negotiations, readiness checks, SIS, EU documents and political statements, with sources.",
       "description_characters": 142
     },
     {
@@ -161,8 +161,8 @@
       "canonical": "https://chistopat.github.io/cyprus-schengen-monitor/timeline.html",
       "title": "Кипр — Шенген: хронология вступления и новости",
       "title_characters": 46,
-      "description": "Хронология вступления Кипра в Шенген: события 2023–2026 годов, документы Совета ЕС, техническая подготовка и политические заявления.",
-      "description_characters": 132
+      "description": "Хронология вступления Кипра в Шенген с 1999 по 2026 год: переговоры, проверки готовности, SIS, документы ЕС и политические заявления с источниками.",
+      "description_characters": 147
     }
   ]
 }

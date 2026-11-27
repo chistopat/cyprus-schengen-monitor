@@ -6,6 +6,7 @@ from urllib.parse import urlencode, urljoin
 import json
 import hashlib
 import re
+from datetime import date
 import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -18,6 +19,55 @@ SITE = json.loads((ROOT / 'site.json').read_text())
 PARTNER = json.loads((ROOT / 'content/partner.json').read_text())
 BASE = SITE['url'].rstrip('/') + '/'
 FILES = list(SEO['ru'])
+MONITOR = json.loads((ROOT / 'content/monitor.json').read_text())
+
+
+def chronology_mapping(lang):
+    """Keep long event translations separate from the shared interface strings."""
+    if lang == 'ru':
+        return {}
+    rows = json.loads((ROOT / f'translations/chronology-{lang}.json').read_text())
+    mapping = {}
+    short = {
+        'ru': ['', 'ЯНВ', 'ФЕВ', 'МАР', 'АПР', 'МАЙ', 'ИЮН', 'ИЮЛ', 'АВГ', 'СЕН', 'ОКТ', 'НОЯ', 'ДЕК'],
+        'en': ['', 'JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'],
+        'el': ['', 'ΙΑΝ', 'ΦΕΒ', 'ΜΑΡ', 'ΑΠΡ', 'ΜΑΪ', 'ΙΟΥΝ', 'ΙΟΥΛ', 'ΑΥΓ', 'ΣΕΠ', 'ΟΚΤ', 'ΝΟΕ', 'ΔΕΚ'],
+    }
+    months = {
+        'ru': ['', 'января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря'],
+        'en': ['', 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+        'el': ['', 'Ιανουαρίου', 'Φεβρουαρίου', 'Μαρτίου', 'Απριλίου', 'Μαΐου', 'Ιουνίου', 'Ιουλίου', 'Αυγούστου', 'Σεπτεμβρίου', 'Οκτωβρίου', 'Νοεμβρίου', 'Δεκεμβρίου'],
+    }
+    def full(value, language):
+        d = date.fromisoformat(value)
+        return f'{d.day} {months[language][d.month]} {d.year}'
+    for event in MONITOR['events']:
+        if 'chronology_number' not in event:
+            continue
+        translated = rows[str(event['chronology_number'])]
+        for field in ('title', 'summary', 'impact', 'date_label'):
+            if not translated.get(field):
+                raise ValueError(f'Missing {lang} chronology field: {event["id"]}.{field}')
+            mapping[event[field]] = translated[field]
+        provenance = translated['provenance']
+        if event['provenance'].startswith('Статус источника: '):
+            qualifier = re.sub(r'^[A-D](?: / [A-D])*,\s*', '', translated['grade_note']).rstrip('.')
+            prefix = 'Source status: ' if lang == 'en' else 'Κατάσταση πηγής: '
+            provenance = prefix + qualifier + '. ' + provenance
+        mapping[event['provenance']] = provenance
+        ru_date = 'Событие ' + event['date_label']
+        target_date = ('Event ' if lang == 'en' else 'Γεγονός ') + translated['date_label']
+        if event['discovered']:
+            ru_date += ' · В мониторинге с ' + full(event['discovered'], 'ru')
+            target_date += (' · Tracked since ' if lang == 'en' else ' · Παρακολουθείται από ') + full(event['discovered'], lang)
+        mapping[ru_date] = target_date
+        d = date.fromisoformat(event['date'])
+        mapping[short['ru'][d.month] + ' ' + str(d.year)] = short[lang][d.month] + ' ' + str(d.year)
+    mapping.update(dict(zip(short['ru'][1:], short[lang][1:])))
+    for source, translated in rows['_sources'].items():
+        mapping[source] = translated
+        mapping[source + ' '] = translated + ' '
+    return mapping
 
 
 def asset_version(filename):
@@ -57,6 +107,7 @@ class Translator(HTMLParser):
         if len(values) != len(BASE_TEXT):
             raise ValueError(f'Incomplete {lang} translation')
         self.mapping = dict(zip(BASE_TEXT, values))
+        self.mapping.update(chronology_mapping(lang))
         self.lang = lang
         self.out = []
 

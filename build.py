@@ -25,8 +25,12 @@ def refs(indices):
 def full_date(value):
     d=date.fromisoformat(value)
     return f'{d.day} {months[d.month]} {d.year}'
-def datetile(value):
+def datetile(value,label=None,precision='day'):
     d=date.fromisoformat(value)
+    if precision != 'day':
+        major=short[d.month] if precision=='month' else str(d.year)
+        minor=str(d.year) if precision=='month' else label
+        return f'<span class="datetile period"><strong>{major}</strong><span>{escape(minor)}</span></span>'
     return f'<span class="datetile"><strong>{d.day:02d}</strong><span>{short[d.month]} {d.year}</span></span>'
 def nav(href,title,current):
     active=' aria-current="page"' if href==current else ''
@@ -55,9 +59,13 @@ overview=hero+strip+f'''<div class="overview-grid" id="latest"><section class="f
 page('index.html','Кипр и Шенген',overview)
 def entry(e):
     discovered=f' · В мониторинге с {full_date(e["discovered"])}' if e['discovered'] else ''
-    return f'''<details id="{e['id']}" class="timeline-entry" data-category="{e['type']}"><summary>{datetile(e['date'])}<span class="entry-title"><span class="event-tags">{tag(e)}{grade(e)}</span><strong>{e['title']}</strong></span><span class="expand">{icon('chevron',18)}</span></summary><div class="details-body"><p class="entry-dates">Событие {full_date(e['date'])}{discovered}</p><p>{e['summary']} {e['detail']}</p><h3>Что это меняет</h3><p>{e['impact']}</p>{refs(e['refs'])}</div></details>'''
+    label=e.get('date_label',full_date(e['date']))
+    prose=escape(e['summary']+' '+e['detail']).strip()
+    provenance=f'<h3>Источник и дата публикации</h3><p>{escape(e["provenance"])}</p>' if e.get('provenance') else ''
+    return f'''<details id="{e['id']}" class="timeline-entry" data-category="{e['type']}"><summary>{datetile(e['date'],label,e.get('date_precision','day'))}<span class="entry-title"><span class="event-tags">{tag(e)}{grade(e)}</span><strong>{escape(e['title'])}</strong></span><span class="expand">{icon('chevron',18)}</span></summary><div class="details-body"><p class="entry-dates">Событие {escape(label)}{discovered}</p><p>{prose}</p><h3>Что это меняет</h3><p>{escape(e['impact'])}</p>{provenance}{refs(e['refs'])}</div></details>'''
 filters=''.join(f'<button type="button" data-filter="{k}" aria-pressed="{str(k=="all").lower()}">{s}</button>' for k,s in [('all','Все события'),('procedure','Процедура'),('technical','Техника'),('politics','Политика')])
-timeline=heading('Документы и события','Хронология','События идут от новых к ранним. Раскройте запись, чтобы увидеть источник, дату публикации и влияние на прогноз.')
+timeline=heading('Документы и события','Хронология','С 1999 по 2026 год: переговоры, проверки готовности и политические ориентиры. События идут от новых к ранним. Раскройте запись, чтобы увидеть подробности, значение и источники.')
+timeline+='<p class="timeline-context">Подготовка документально прослеживается с 1999 года. Ранние проверки прошли в 2006-м, нынешний цикл начался в 2019-м, а подключение к SIS состоялось в 2023-м. Если источник указывает только месяц или период, точный день не подставлен.</p>'
 timeline+=f'''<div class="archive-tools" hidden><div class="chips" aria-label="Фильтр событий по теме">{filters}</div><label class="search">{icon('search',17)}<input type="search" id="query" aria-label="Поиск по событиям" placeholder="Поиск по событиям"></label></div><p id="event-count" class="count" aria-live="polite"></p><section class="entries" aria-label="События по датам">'''+''.join(entry(e) for e in sorted(events,key=lambda e:(e['date'],e['discovered']),reverse=True))+'''</section><div class="no-results" hidden><p>По этому запросу событий нет.</p><button class="primary reset" type="button">Сбросить фильтры</button></div>'''
 page('timeline.html','Хронология событий',timeline)
 forecast=heading('Аналитическая оценка · уровень D','Прогноз вступления','Рабочий горизонт — 2027 год. Точность прогноза зависит от закрытия планов, условий пограничного контроля и согласия государств.')
@@ -79,6 +87,8 @@ directory=heading('Основания мониторинга','Источник�
 levels=[('A','Документ','Правовой акт, запись в официальном реестре или опубликованная повестка.'),('B','Официальная позиция','Заявление должностного лица или совместное политическое обязательство.'),('C','Публикация СМИ','Репортаж, интервью или оценка, требующая атрибуции и сверки.'),('D','Аналитический вывод','Условная оценка влияния события на сроки и сценарии.')]
 directory+='<section class="grade-grid" aria-label="Уровни достоверности">'+''.join(f'<div class="level"><span>{k}</span><h2>{t}</h2><p>{b}</p></div>' for k,t,b in levels)+'</section>'
 groups=[('Правовой статус и документы ЕС',[8,32,9,12,15,19,21,22,0,7,23,39,40,13,29]),('Заявления государств и международных организаций',[6,33,14,11,16,17,3,4,27,24,20,10]),('Инфраструктура и независимые публикации',[1,2,5,38,30,31,18,25,26])]
+listed={i for _,ids in groups for i in ids}
+groups.append(('История подготовки с 1999 года',[i for i in range(len(sources)) if i not in listed]))
 for title,ids in groups:
     directory+=f'<section class="sources-group"><h2>{title}</h2><div class="documents">'+''.join(f'<div>{icon("file",17)}{ref(i)}</div>' for i in ids)+'</div></section>'
 directory+='<div class="market"><div class="micro">Об этом выпуске</div><p>Сайт отражает состояние досье на 27 ноября 2026 года.</p>'+'</div>'

@@ -37,3 +37,28 @@ This experiment has not confirmed that XHTML extensions caused the problem. The 
 - [Google: Sitemaps report, fetch diagnostics and status definitions](https://support.google.com/webmasters/answer/7451001)
 - [Google: language alternates in XML sitemaps](https://developers.google.com/search/docs/specialty/international/localized-versions)
 - [Sitemap Protocol schema](https://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd)
+
+## Follow-up at 18:27 Asia/Nicosia
+
+The GitHub repository was created on 27 November 2026 at 12:27 UTC (14:27 Cyprus time). The site is only about four hours old, not an established property with a confirmed search-traffic decline.
+
+### Search visibility
+
+- A Google search for the complete English homepage URL returned the EN, EL and RU homepages. The site is served in search, although it was absent from the first page for `cyprus schengen monitor`.
+- English URL Inspection reported `Page is indexed`, last crawled by Googlebot smartphone at 15:01:46 Cyprus time, successful fetch, crawling/indexing allowed and the inspected English URL as Google's canonical. Discovery showed links from the RU/EL homepages and no referring sitemaps.
+- Manual actions and Security issues both reported `No issues detected`. Temporary Removals had no requests in the last six months.
+- Search Console Performance and Indexing overview reports were still processing initial data. No query-level ranking cause or traffic trend can be established from those reports yet.
+- The exact queried brand was missing from the visible English name (`Cyprus Monitor`) and the homepage title. The visible English name and all three homepage titles now include `Cyprus Schengen Monitor`. This fixes an observed naming inconsistency; it is not evidence that it was the sole cause of ranking.
+- Google displayed the domain-level site label `GitHub Pages documentation`. Google does not support distinct site names for a project subdirectory. Project-level WebSite markup cannot guarantee a separate site label. Changing the existing domain homepage or migrating to a custom domain is outside this change.
+
+### Sitemap experiments and discovery
+
+- Fresh HTTPS retrieval of the primary XML map returned 200, `application/xml`, no redirect or indexing restriction. The minimal XML map validates against the official Sitemap Protocol XSD (`xmllint`).
+- Resubmitting the original XML map was accepted, but the report remained `Unknown`, `Couldn't fetch`, zero discovered URLs. The details page offered no specific HTTP/DNS/parser failure.
+- Added Google's supported text sitemap at `sitemap.txt`, containing the exact same 18 canonical URLs, one per line. Build/audit and deployment passed; public HTTPS retrieval returned 200, `text/plain; charset=utf-8`, with bytes matching the build. Search Console accepted its submission but initially displayed the same `Unknown` / `Couldn't fetch` / zero state. The symptom therefore also occurs without any XML namespace or extension.
+- Google's live inspection of `sitemap.txt` at 18:27:09 Cyprus time reported `Crawl allowed: Yes`, `Page fetch: Successful`, `Indexing allowed: Yes`.
+- Added a non-blocking domain-root `robots.txt` in `chistopat/chistopat.github.io` advertising the primary XML and text maps. The root file now returns HTTP 200 and its deployment passed. The existing domain homepage was not changed. The previous root 404 was not itself a crawl block, but the project-directory robots file did not provide crawler discovery.
+
+The remaining ingestion failure is **not resolved**. A transient Google ingestion/reporting issue or low crawl demand on a new property remains plausible; neither is confirmed. Do not claim a format fix or successful processing until the report shows `Success` and the map's 18 URLs. Availability in Google's live inspection and sitemap ingestion are distinct observations.
+
+References: [Google URL Inspection caveats](https://support.google.com/webmasters/answer/9012289), [Sitemap fetch errors and low crawl demand](https://support.google.com/webmasters/answer/7451001), [supported text sitemap format](https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap), [subdirectory site-name limitation](https://developers.google.com/search/docs/appearance/site-names).

@@ -1,0 +1,4 @@
+.sites-checkout/
+__pycache__/
+.venv/
+.DS_Store

@@ -1,0 +1,168 @@
+{
+  "pages_checked": 18,
+  "errors": [],
+  "metadata": [
+    {
+      "page": "el/forecast.html",
+      "lang": "el-CY",
+      "canonical": "https://chistopat.github.io/cyprus-schengen-monitor/el/forecast.html",
+      "title": "Πότε θα ενταχθεί η Κύπρος στη Σένγκεν; Σενάρια 2027",
+      "title_characters": 51,
+      "description": "Πότε μπορεί να ενταχθεί η Κύπρος στη Σένγκεν; Ο στόχος της 1ης Ιουλίου 2027, πιθανές καθυστερήσεις και όροι της απόφασης του Συμβουλίου.",
+      "description_characters": 136
+    },
+    {
+      "page": "el/index.html",
+      "lang": "el-CY",
+      "canonical": "https://chistopat.github.io/cyprus-schengen-monitor/el/",
+      "title": "Κύπρος και Σένγκεν: ένταξη, νέα και χρονοδιάγραμμα",
+      "title_characters": 50,
+      "description": "Είναι η Κύπρος στη Σένγκεν και πότε αναμένεται η ένταξη; Κατάσταση στις 27 Νοεμβρίου 2026, στόχος 2027, εξελίξεις και επίσημα έγγραφα της ΕΕ.",
+      "description_characters": 141
+    },
+    {
+      "page": "el/participants.html",
+      "lang": "el-CY",
+      "canonical": "https://chistopat.github.io/cyprus-schengen-monitor/el/participants.html",
+      "title": "Κύπρος και Σένγκεν: θέσεις ΕΕ, Ελλάδας και άλλων κρατών",
+      "title_characters": 55,
+      "description": "Ποιοι αποφασίζουν για την ένταξη της Κύπρου στη Σένγκεν; Θέσεις του Συμβουλίου της ΕΕ, της Επιτροπής, της Ελλάδας και της MED9, με πηγές.",
+      "description_characters": 137
+    },
+    {
+      "page": "el/privacy.html",
+      "lang": "el-CY",
+      "canonical": "https://chistopat.github.io/cyprus-schengen-monitor/el/privacy.html",
+      "title": "Απόρρητο και αναλυτικά στοιχεία | Παρατηρητήριο Κύπρου",
+      "title_characters": 54,
+      "description": "Πώς χρησιμοποιεί το Παρατηρητήριο Κύπρου το Google Analytics 4, τι καταγράφει και πώς μπορείτε να επιτρέψετε ή να απενεργοποιήσετε τα στατιστικά.",
+      "description_characters": 145
+    },
+    {
+      "page": "el/sources.html",
+      "lang": "el-CY",
+      "canonical": "https://chistopat.github.io/cyprus-schengen-monitor/el/sources.html",
+      "title": "Κύπρος και Σένγκεν: επίσημα έγγραφα και πηγές",
+      "title_characters": 45,
+      "description": "Επίσημα έγγραφα για την ένταξη της Κύπρου στη Σένγκεν: Συμβούλιο της ΕΕ, EUR-Lex και δηλώσεις αρχών. Πηγές και κατηγορίες τεκμηρίωσης A–D.",
+      "description_characters": 138
+    },
+    {
+      "page": "el/timeline.html",
+      "lang": "el-CY",
+      "canonical": "https://chistopat.github.io/cyprus-schengen-monitor/el/timeline.html",
+      "title": "Ένταξη Κύπρου στη Σένγκεν: χρονολόγιο και νέα",
+      "title_characters": 45,
+      "description": "Χρονολόγιο ένταξης της Κύπρου στη Σένγκεν, 2023–2026: έγγραφα του Συμβουλίου, τεχνική προετοιμασία, πολιτικές δηλώσεις και πηγές.",
+      "description_characters": 129
+    },
+    {
+      "page": "en/forecast.html",
+      "lang": "en",
+      "canonical": "https://chistopat.github.io/cyprus-schengen-monitor/en/forecast.html",
+      "title": "When Will Cyprus Join Schengen? 2027 Scenarios",
+      "title_characters": 46,
+      "description": "When could Cyprus join Schengen? Explore the 1 July 2027 target, possible delays and conditions for a Council decision. Targets are not confirmed dates.",
+      "description_characters": 152
+    },
+    {
+      "page": "en/index.html",
+      "lang": "en",
+      "canonical": "https://chistopat.github.io/cyprus-schengen-monitor/en/",
+      "title": "Is Cyprus in Schengen? Status, News and Entry Timeline",
+      "title_characters": 54,
+      "description": "Is Cyprus in Schengen, and when could it join? Status as of 27 November 2026, the 2027 target, latest developments and links to EU documents.",
+      "description_characters": 141
+    },
+    {
+      "page": "en/participants.html",
+      "lang": "en",
+      "canonical": "https://chistopat.github.io/cyprus-schengen-monitor/en/participants.html",
+      "title": "Cyprus and Schengen: EU and Member State Positions",
+      "title_characters": 50,
+      "description": "Who decides on Cyprus joining Schengen? Explore the roles of the EU Council, Commission, Greece, MED9 and other parties, with supporting sources.",
+      "description_characters": 145
+    },
+    {
+      "page": "en/privacy.html",
+      "lang": "en",
+      "canonical": "https://chistopat.github.io/cyprus-schengen-monitor/en/privacy.html",
+      "title": "Privacy and Analytics | Cyprus Monitor",
+      "title_characters": 38,
+      "description": "How Cyprus Monitor uses Google Analytics 4, which interactions it measures and how to allow or disable visit statistics in your browser.",
+      "description_characters": 136
+    },
+    {
+      "page": "en/sources.html",
+      "lang": "en",
+      "canonical": "https://chistopat.github.io/cyprus-schengen-monitor/en/sources.html",
+      "title": "Cyprus Schengen Accession: Official Documents and Sources",
+      "title_characters": 57,
+      "description": "Find EU Council documents, EUR-Lex acts, official statements and reporting on Cyprus joining Schengen, with an A–D evidence grading system.",
+      "description_characters": 139
+    },
+    {
+      "page": "en/timeline.html",
+      "lang": "en",
+      "canonical": "https://chistopat.github.io/cyprus-schengen-monitor/en/timeline.html",
+      "title": "Cyprus Schengen Timeline: Accession News and Milestones",
+      "title_characters": 55,
+      "description": "Track Cyprus’s Schengen accession from 2023 to 2026: Council documents, technical preparations, political statements and links to the sources.",
+      "description_characters": 142
+    },
+    {
+      "page": "forecast.html",
+      "lang": "ru",
+      "canonical": "https://chistopat.github.io/cyprus-schengen-monitor/forecast.html",
+      "title": "Когда Кипр войдёт в Шенген? Сценарии на 2027 год",
+      "title_characters": 48,
+      "description": "Когда Кипр может вступить в Шенген: ориентир 1 июля 2027, сценарии задержки и условия решения Совета ЕС. Прогноз отделён от утверждённой даты.",
+      "description_characters": 142
+    },
+    {
+      "page": "index.html",
+      "lang": "ru",
+      "canonical": "https://chistopat.github.io/cyprus-schengen-monitor/",
+      "title": "Кипр и Шенген: статус, новости и сроки вступления",
+      "title_characters": 49,
+      "description": "Входит ли Кипр в Шенген и когда ожидается вступление? Статус на 27 ноября 2026, ориентир 2027 года, новости и ссылки на документы ЕС.",
+      "description_characters": 133
+    },
+    {
+      "page": "participants.html",
+      "lang": "ru",
+      "canonical": "https://chistopat.github.io/cyprus-schengen-monitor/participants.html",
+      "title": "Кипр и Шенген: позиции ЕС, Греции и других стран",
+      "title_characters": 48,
+      "description": "Кто решает вопрос вступления Кипра в Шенген: Совет ЕС, Еврокомиссия, Греция, MED9 и другие стороны. Позиции и подтверждающие источники.",
+      "description_characters": 135
+    },
+    {
+      "page": "privacy.html",
+      "lang": "ru",
+      "canonical": "https://chistopat.github.io/cyprus-schengen-monitor/privacy.html",
+      "title": "Конфиденциальность и аналитика | Кипрский монитор",
+      "title_characters": 49,
+      "description": "Как Кипрский монитор использует Google Analytics 4, какие события собирает и как разрешить или отключить статистику посещений.",
+      "description_characters": 126
+    },
+    {
+      "page": "sources.html",
+      "lang": "ru",
+      "canonical": "https://chistopat.github.io/cyprus-schengen-monitor/sources.html",
+      "title": "Кипр и Шенген: официальные документы и источники",
+      "title_characters": 48,
+      "description": "Официальные документы о вступлении Кипра в Шенген: Совет ЕС, EUR-Lex и заявления властей. Источники, публикации и шкала доказательств A–D.",
+      "description_characters": 138
+    },
+    {
+      "page": "timeline.html",
+      "lang": "ru",
+      "canonical": "https://chistopat.github.io/cyprus-schengen-monitor/timeline.html",
+      "title": "Кипр — Шенген: хронология вступления и новости",
+      "title_characters": 46,
+      "description": "Хронология вступления Кипра в Шенген: события 2023–2026 годов, документы Совета ЕС, техническая подготовка и политические заявления.",
+      "description_characters": 132
+    }
+  ]
+}

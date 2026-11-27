@@ -1,0 +1,80 @@
+{
+  "ru": {
+    "index.html": {
+      "title": "Кипр и Шенген: статус, новости и сроки вступления",
+      "description": "Входит ли Кипр в Шенген и когда ожидается вступление? Статус на 27 ноября 2026, ориентир 2027 года, новости и ссылки на документы ЕС."
+    },
+    "timeline.html": {
+      "title": "Кипр — Шенген: хронология вступления и новости",
+      "description": "Хронология вступления Кипра в Шенген: события 2023–2026 годов, документы Совета ЕС, техническая подготовка и политические заявления."
+    },
+    "forecast.html": {
+      "title": "Когда Кипр войдёт в Шенген? Сценарии на 2027 год",
+      "description": "Когда Кипр может вступить в Шенген: ориентир 1 июля 2027, сценарии задержки и условия решения Совета ЕС. Прогноз отделён от утверждённой даты."
+    },
+    "participants.html": {
+      "title": "Кипр и Шенген: позиции ЕС, Греции и других стран",
+      "description": "Кто решает вопрос вступления Кипра в Шенген: Совет ЕС, Еврокомиссия, Греция, MED9 и другие стороны. Позиции и подтверждающие источники."
+    },
+    "sources.html": {
+      "title": "Кипр и Шенген: официальные документы и источники",
+      "description": "Официальные документы о вступлении Кипра в Шенген: Совет ЕС, EUR-Lex и заявления властей. Источники, публикации и шкала доказательств A–D."
+    },
+    "privacy.html": {
+      "title": "Конфиденциальность и аналитика | Кипрский монитор",
+      "description": "Как Кипрский монитор использует Google Analytics 4, какие события собирает и как разрешить или отключить статистику посещений."
+    }
+  },
+  "en": {
+    "index.html": {
+      "title": "Is Cyprus in Schengen? Status, News and Entry Timeline",
+      "description": "Is Cyprus in Schengen, and when could it join? Status as of 27 November 2026, the 2027 target, latest developments and links to EU documents."
+    },
+    "timeline.html": {
+      "title": "Cyprus Schengen Timeline: Accession News and Milestones",
+      "description": "Track Cyprus’s Schengen accession from 2023 to 2026: Council documents, technical preparations, political statements and links to the sources."
+    },
+    "forecast.html": {
+      "title": "When Will Cyprus Join Schengen? 2027 Scenarios",
+      "description": "When could Cyprus join Schengen? Explore the 1 July 2027 target, possible delays and conditions for a Council decision. Targets are not confirmed dates."
+    },
+    "participants.html": {
+      "title": "Cyprus and Schengen: EU and Member State Positions",
+      "description": "Who decides on Cyprus joining Schengen? Explore the roles of the EU Council, Commission, Greece, MED9 and other parties, with supporting sources."
+    },
+    "sources.html": {
+      "title": "Cyprus Schengen Accession: Official Documents and Sources",
+      "description": "Find EU Council documents, EUR-Lex acts, official statements and reporting on Cyprus joining Schengen, with an A–D evidence grading system."
+    },
+    "privacy.html": {
+      "title": "Privacy and Analytics | Cyprus Monitor",
+      "description": "How Cyprus Monitor uses Google Analytics 4, which interactions it measures and how to allow or disable visit statistics in your browser."
+    }
+  },
+  "el": {
+    "index.html": {
+      "title": "Κύπρος και Σένγκεν: ένταξη, νέα και χρονοδιάγραμμα",
+      "description": "Είναι η Κύπρος στη Σένγκεν και πότε αναμένεται η ένταξη; Κατάσταση στις 27 Νοεμβρίου 2026, στόχος 2027, εξελίξεις και επίσημα έγγραφα της ΕΕ."
+    },
+    "timeline.html": {
+      "title": "Ένταξη Κύπρου στη Σένγκεν: χρονολόγιο και νέα",
+      "description": "Χρονολόγιο ένταξης της Κύπρου στη Σένγκεν, 2023–2026: έγγραφα του Συμβουλίου, τεχνική προετοιμασία, πολιτικές δηλώσεις και πηγές."
+    },
+    "forecast.html": {
+      "title": "Πότε θα ενταχθεί η Κύπρος στη Σένγκεν; Σενάρια 2027",
+      "description": "Πότε μπορεί να ενταχθεί η Κύπρος στη Σένγκεν; Ο στόχος της 1ης Ιουλίου 2027, πιθανές καθυστερήσεις και όροι της απόφασης του Συμβουλίου."
+    },
+    "participants.html": {
+      "title": "Κύπρος και Σένγκεν: θέσεις ΕΕ, Ελλάδας και άλλων κρατών",
+      "description": "Ποιοι αποφασίζουν για την ένταξη της Κύπρου στη Σένγκεν; Θέσεις του Συμβουλίου της ΕΕ, της Επιτροπής, της Ελλάδας και της MED9, με πηγές."
+    },
+    "sources.html": {
+      "title": "Κύπρος και Σένγκεν: επίσημα έγγραφα και πηγές",
+      "description": "Επίσημα έγγραφα για την ένταξη της Κύπρου στη Σένγκεν: Συμβούλιο της ΕΕ, EUR-Lex και δηλώσεις αρχών. Πηγές και κατηγορίες τεκμηρίωσης A–D."
+    },
+    "privacy.html": {
+      "title": "Απόρρητο και αναλυτικά στοιχεία | Παρατηρητήριο Κύπρου",
+      "description": "Πώς χρησιμοποιεί το Παρατηρητήριο Κύπρου το Google Analytics 4, τι καταγράφει και πώς μπορείτε να επιτρέψετε ή να απενεργοποιήσετε τα στατιστικά."
+    }
+  }
+}

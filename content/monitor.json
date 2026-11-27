@@ -1,0 +1,532 @@
+{
+  "source": "https://chatgpt.com/space/page_8cfb4daf85e88191be57837d5b65a40d",
+  "sources": [
+    {
+      "name": "Парламент Австрии · ST 15799/26",
+      "url": "https://www.parlament.gv.at/gegenstand/XXVIII/EU/105128"
+    },
+    {
+      "name": "Портал госзакупок Кипра · MTCW/AIR2/BOOTHS/2026",
+      "url": "https://www.eprocurement.gov.cy/epps/cft/prepareViewCfTWS.do?resourceId=9425103"
+    },
+    {
+      "name": "Phileleftheros · оборудование аэропортов",
+      "url": "https://www.philenews.com/kipros/koinonia/article/1800042/tha-elegchoun-akomi-ke-to-ipsos-ton-epivaton-sta-aerodromia-allazoun-i-thalami-elegchou-diavatirion/"
+    },
+    {
+      "name": "Совет ЕС · ST 16174/26, пункт 5",
+      "url": "https://data.consilium.europa.eu/doc/document/ST-16174-2026-INIT/en/pdf"
+    },
+    {
+      "name": "Правительство Великобритании · заявление саммита",
+      "url": "https://www.gov.uk/government/publications/ukeu-summit-2026-key-documents/uk-eu-summit-2026-joint-statement-html"
+    },
+    {
+      "name": "Kathimerini / KNEWS · колонка о готовности к Шенгену",
+      "url": "https://knews.kathimerini.com.cy/en/news/are-we-ready-for-schengen"
+    },
+    {
+      "name": "Премьер-министр Греции · стенограмма в Никосии",
+      "url": "https://www.primeminister.gr/2026/11/18/39767"
+    },
+    {
+      "name": "Совет ЕС · предварительная повестка CM 4999/26",
+      "url": "https://data.consilium.europa.eu/doc/document/CM-4999-2026-INIT/en/pdf"
+    },
+    {
+      "name": "Еврокомиссия · состав и статус Шенгенской зоны",
+      "url": "https://home-affairs.ec.europa.eu/policies/schengen/schengen-area_en"
+    },
+    {
+      "name": "EUR-Lex · решение Совета (ЕС) 2023/870",
+      "url": "https://eur-lex.europa.eu/eli/dec/2023/870/oj/eng"
+    },
+    {
+      "name": "МВД Кипра · подключение к SIS",
+      "url": "https://www.gov.cy/en/internal-affairs/clarifying-statement-of-the-ministry-of-interior-on-the-schengen-information-system-sis/"
+    },
+    {
+      "name": "Президент Кипра · заявление 21 мая",
+      "url": "https://www.gov.cy/proedros-proedria/proedros-tis-dimokratias-simantiki-proodos-gia-tin-entaxi-tis-kyprou-sti-sengken-syntoma-oi-politikes-apofaseis/"
+    },
+    {
+      "name": "Еврокомиссия · брифинг 15 июля",
+      "url": "https://audiovisual.ec.europa.eu/en/media/video/I-292916"
+    },
+    {
+      "name": "Совет ЕС · материалы рабочей группы 15 сентября",
+      "url": "https://www.consilium.europa.eu/en/meetings/mpo/2026/9/schengen-asioiden-tyoeryhmae-%28370676%29/"
+    },
+    {
+      "name": "Правительство Кипра · заявление Иоаннидиса",
+      "url": "https://www.gov.cy/evropaika-themata/o-yfypourgos-metanastefsis-kai-diethnous-prostasias-symmeteiche-sto-symvoulio-dikaiosynis-kai-esoterikon-ypotheseon-tis-ee-2/"
+    },
+    {
+      "name": "Совет ЕС · реестр ST 13957/26",
+      "url": "https://www.consilium.europa.eu/en/documents/public-register/public-register-search/?AllLanguagesSearch=false&DocumentLanguage=EN&DocumentNumber=13957%2F26&OnlyPublicDocuments=false"
+    },
+    {
+      "name": "Группа MED9 · декларация в Сплите",
+      "url": "https://www.gov.cy/en/president-of-the-republic-presidency/excerpts-from-the-split-med9-joint-declaration/"
+    },
+    {
+      "name": "Полный текст декларации MED9",
+      "url": "https://www.tothemaonline.com/img/pdffolder/8038da1d8f6c41d490ff154530fc5dc3.pdf"
+    },
+    {
+      "name": "РИК · интервью с Иоаннидисом",
+      "url": "https://news.rik.cy/article/2026/10/10/plere-entaxe-tes-kupriakes-demokratias-ston-khoro-sengken-entos-tou-2027-anamenei-e-kubernese/"
+    },
+    {
+      "name": "Совет ЕС · проект ST 14872/26",
+      "url": "https://www.consilium.europa.eu/en/documents/public-register/public-register-search/?AllLanguagesSearch=false&DocumentLanguage=EN&DocumentNumber=14872%2F26&OnlyPublicDocuments=false"
+    },
+    {
+      "name": "ООН · заявление о новых переходах",
+      "url": "https://uncyprustalks.unmissions.org/en/node/137306"
+    },
+    {
+      "name": "Совет ЕС · повестка CM 4752/1/26 REV 1",
+      "url": "https://data.consilium.europa.eu/doc/document/CM-4752-2026-REV-1/en/pdf"
+    },
+    {
+      "name": "Парламент Австрии · WK 17427/26",
+      "url": "https://www.parlament.gv.at/gegenstand/XXVIII/EU/104353"
+    },
+    {
+      "name": "Совет ЕС · предварительный список CM 5119/26",
+      "url": "https://data.consilium.europa.eu/doc/document/CM-5119-2026-INIT/en/pdf"
+    },
+    {
+      "name": "МИД Турции · встреча Фидана и Фитто",
+      "url": "https://www.mfa.gov.tr/sayin-bakanimizin-avrupa-komisyonu-uyum-ve-reformlardan-sorumlu-kidemli-baskan-yardimcisi-raffaele-fitto-ile-gorusmesi--20-kasim-2026--ankara.en.mfa"
+    },
+    {
+      "name": "Cyprus News Agency · позиция Еврокомиссии",
+      "url": "https://www.cna.org.cy/en/article/11228521/progress-on-cyprus-conducive-for-eu-turkey-ties-commission-says-on-fitto-fidan-meeting"
+    },
+    {
+      "name": "Anadolu · позиция Фидана",
+      "url": "https://www.aa.com.tr/en/turkiye/turkish-foreign-minister-urges-eu-not-to-let-greek-cypriots-hold-ties-with-turkiye-hostage/4132388"
+    },
+    {
+      "name": "Совместный комитет ЕС и Великобритании · 10 ноября",
+      "url": "https://www.gov.uk/government/news/joint-statement-on-the-withdrawal-agreement-joint-committee-10-november-2026"
+    },
+    {
+      "name": "SigmaLive · заявление президента Кипра",
+      "url": "https://en.sigmalive.com/cyprus-could-join-schengen-on-1-july-2027-christodoulides-says/"
+    },
+    {
+      "name": "EUR-Lex · регламент (ЕС) 2024/1356",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=OJ%3AL_202401356"
+    },
+    {
+      "name": "Cyprus Mail · режим Зелёной линии",
+      "url": "https://cyprus-mail.com/2026/10/23/kombos-no-change-to-who-can-use-crossing-points-when-cyprus-joins-schengen"
+    },
+    {
+      "name": "Politis · переговоры о британских базах",
+      "url": "https://www.en.politis.com.cy/news/politics/1047106/schengen-bid-hinges-on-bases-green-line"
+    },
+    {
+      "name": "Акт о присоединении Кипра · статья 3(2)",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.L_.2003.236.01.0931.01.ENG"
+    },
+    {
+      "name": "Президент Кипра · заявление 13 ноября",
+      "url": "https://www.gov.cy/proedros-proedria/diloseis-tou-proedrou-tis-dimokratias-gia-tin-atypi-synodo-tou-evropaikou-symvouliou-kai-to-kypriako/"
+    },
+    {
+      "name": "Cyprus Mail · заявление премьера Греции",
+      "url": "https://cyprus-mail.com/2026/11/18/mitsotakis-cyprus-will-join-schengen-zone-on-july-1"
+    },
+    {
+      "name": "Politis · встреча Греции и Кипра",
+      "url": "https://www.politis.com.cy/politis-news/oikonomia/1071006/sintonismos-ghia-gsi-etoimotita-ghia-senghken-mitsotakis-kai-xristodoylidis-epivevaiosan-dimosia-ton-sintonismo-ton-dyo-kiverniseon"
+    },
+    {
+      "name": "Politis · переговоры ЕС и Турции",
+      "url": "https://en.politis.com.cy/in-depth/cyprus-issue/1072183/fitto-links-cyprus-settlement-to-eu-turkey-ties-fidan-rejects-conditionality"
+    },
+    {
+      "name": "Специализированный комитет ЕС и Великобритании",
+      "url": "https://www.gov.uk/government/news/sovereign-base-areas-specialised-committee-meeting-joint-statement"
+    },
+    {
+      "name": "Politis · контроль на двух переходах",
+      "url": "https://en.politis.com.cy/news/1041222/what-is-blocking-cypruss-accession-to-the-schengen-area"
+    },
+    {
+      "name": "Совет ЕС · заседание 3 декабря",
+      "url": "https://www.consilium.europa.eu/en/meetings/jha/2026/12/03/"
+    },
+    {
+      "name": "Совет ЕС · заседание рабочей группы 13 ноября",
+      "url": "https://www.consilium.europa.eu/en/meetings/mpo/2026/11/working-party-for-schengen-matters-%28370887%29/"
+    },
+    {
+      "name": "Polymarket · тематическая страница Кипра",
+      "url": "https://polymarket.com/predictions/cyprus"
+    }
+  ],
+  "events": [
+    {
+      "id": "december-briefing",
+      "date": "2026-11-22",
+      "discovered": "2026-11-27",
+      "type": "procedure",
+      "grade": "A",
+      "title": "Еврокомиссия готовит доклад по Кипру",
+      "summary": "Для декабрьского Совета ЕС подготовлен информационный пункт о применении шенгенских правил на Кипре.",
+      "detail": "Документ ST 15799/26 создан 22 ноября и поступил в парламент Австрии 23 ноября. В реестре указаны заседание 3–4 декабря и раздел «Прочие вопросы». Полный текст имеет ограниченный доступ.",
+      "impact": "Вероятность обсуждения на уровне министров выросла. Дата выступления и голосование о вступлении пока не подтверждены.",
+      "refs": [
+        0,
+        39
+      ]
+    },
+    {
+      "id": "airport-booths",
+      "date": "2026-11-20",
+      "discovered": "2026-11-25",
+      "type": "technical",
+      "grade": "A / C",
+      "title": "Ларнака и Пафос обновляют паспортный контроль",
+      "summary": "Кипр объявил тендер на €440 тысяч для установки кабин паспортного контроля в двух аэропортах.",
+      "detail": "Конкурс опубликован 20 ноября. Заявки принимают до 21 декабря. По данным Phileleftheros от 25 ноября, предусмотрены 22 кабины и восемь месяцев на установку и испытания после подписания договора.",
+      "impact": "Закупка подтверждает подготовку аэропортов. Связь между вводом кабин и юридической датой вступления пока не установлена.",
+      "refs": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "uk-bases",
+      "date": "2026-11-20",
+      "discovered": "2026-11-24",
+      "type": "politics",
+      "grade": "B",
+      "title": "ЕС и Великобритания подтвердили обязательства по базам",
+      "summary": "На саммите стороны договорились завершить выполнение протокола о британских суверенных базах на Кипре.",
+      "detail": "Пункт 5 совместного заявления опубликован 20 ноября. Ранее, 10 ноября, совместный комитет сообщил о техническом прогрессе. Отдельный порядок шенгенских проверок в Пергамосе и Стровилии пока не опубликован.",
+      "impact": "Обязательство лидеров поддерживает переговоры. График присоединения остаётся открытым.",
+      "refs": [
+        3,
+        4,
+        27
+      ]
+    },
+    {
+      "id": "poland",
+      "date": "2026-11-22",
+      "discovered": "2026-11-23",
+      "type": "politics",
+      "grade": "C",
+      "title": "В прессе появились оценки позиции Польши",
+      "summary": "Колумнист Kathimerini/KNEWS назвал Польшу среди стран, которые могут проявить осторожность при голосовании.",
+      "detail": "В колонке от 22 ноября также упомянуты Австрия и Нидерланды. Автор не приводит официального заявления Варшавы или текста оговорки.",
+      "impact": "У Польши стоит отслеживать публичные заявления. Для вывода о вето оснований пока нет.",
+      "refs": [
+        5
+      ]
+    },
+    {
+      "id": "ankara",
+      "date": "2026-11-20",
+      "discovered": "2026-11-21",
+      "type": "politics",
+      "grade": "A / C",
+      "title": "ЕС и Турция обсудили кипрское урегулирование",
+      "summary": "В Анкаре встретились зампред Еврокомиссии Раффаэле Фитто и министр иностранных дел Турции Хакан Фидан.",
+      "detail": "МИД Турции подтвердил встречу. CNA и Anadolu по-разному расставили акценты в вопросе о связи кипрского урегулирования с отношениями ЕС и Турции.",
+      "impact": "Это дипломатический контекст. Прямой связи переговоров с решением Совета о Шенгене не установлено.",
+      "refs": [
+        24,
+        25,
+        26
+      ]
+    },
+    {
+      "id": "greece",
+      "date": "2026-11-18",
+      "discovered": "2026-11-20",
+      "type": "politics",
+      "grade": "B",
+      "title": "Премьер Греции назвал ориентиром 1 июля 2027 года",
+      "summary": "Кириакос Мицотакис связал вступление Кипра с началом греческого председательства в Совете ЕС.",
+      "detail": "Заявление прозвучало 18 ноября на межправительственной встрече в Никосии. Греция будет председательствовать в Совете во второй половине 2027 года.",
+      "impact": "У июльского ориентира появилась публичная поддержка Афин. Юридическую дату должен определить Совет.",
+      "refs": [
+        6
+      ]
+    },
+    {
+      "id": "initial-agenda",
+      "date": "2026-11-18",
+      "discovered": "2026-11-19",
+      "type": "procedure",
+      "grade": "A",
+      "title": "Опубликована первая повестка декабрьского Совета",
+      "summary": "В предварительной повестке и списке пунктов для принятия отдельно не указано вступление Кипра.",
+      "detail": "Документы опубликованы 18 ноября. Позже в реестре появился отдельный информационный пункт по Кипру — ST 15799/26.",
+      "impact": "Окончательную повестку и результаты заседания ещё предстоит сверить.",
+      "refs": [
+        7,
+        23,
+        0
+      ]
+    },
+    {
+      "id": "presentations",
+      "date": "2026-11-13",
+      "discovered": "2026-11-21",
+      "type": "procedure",
+      "grade": "A",
+      "title": "В реестре появились презентации Комиссии и Кипра",
+      "summary": "Рабочий документ WK 17427/26 относится к шенгенской оценке на заседании 13 ноября.",
+      "detail": "Материалы подготовлены 17 ноября и зарегистрированы в парламенте Австрии 18 ноября. Доступна карточка документа с пометкой LIMITE.",
+      "impact": "Регистрация показывает, что группа занималась кипрским досье. Итог согласования остаётся неизвестным.",
+      "refs": [
+        22
+      ]
+    },
+    {
+      "id": "working-party",
+      "date": "2026-11-13",
+      "discovered": "",
+      "type": "procedure",
+      "grade": "A",
+      "title": "Закрытие планов Кипра включили в повестку рабочей группы",
+      "summary": "В повестке на 13 ноября значились представление проекта закрытия планов, обсуждение и возможное согласование.",
+      "detail": "Повестку подготовили 11 ноября. Открытого текста принятого решения в материалах мониторинга нет.",
+      "impact": "Следующий значимый шаг — опубликованный акт о закрытии планов.",
+      "refs": [
+        21,
+        40
+      ]
+    },
+    {
+      "id": "crossings",
+      "date": "2026-11-09",
+      "discovered": "",
+      "type": "politics",
+      "grade": "A",
+      "title": "Лидеры двух общин договорились о новых переходах",
+      "summary": "При посредничестве ООН согласованы два дополнительных перехода через Зелёную линию.",
+      "detail": "9 ноября ООН назвала направления Луружина — Лимбия и Кампос — Каравостаси. Даты физического открытия в заявлении не указаны.",
+      "impact": "Соглашение поддерживает диалог общин. Порядок учёта въездов и выездов при Шенгене остаётся отдельным вопросом.",
+      "refs": [
+        20
+      ]
+    },
+    {
+      "id": "draft",
+      "date": "2026-10-27",
+      "discovered": "",
+      "type": "procedure",
+      "grade": "A",
+      "title": "Зарегистрирован проект закрытия планов",
+      "summary": "В реестре Совета появился проект ST 14872/26 по досье 2026/0337 NLE.",
+      "detail": "Документ от 27 октября касается планов устранения недостатков в шести областях. Полный текст проекта имеет ограниченный доступ.",
+      "impact": "Процедура продвинулась до проекта решения. Его принятие ещё требует подтверждения.",
+      "refs": [
+        19
+      ]
+    },
+    {
+      "id": "six-actions",
+      "date": "2026-10-10",
+      "discovered": "",
+      "type": "technical",
+      "grade": "B",
+      "title": "Министр рассказал о шести оставшихся действиях",
+      "summary": "В интервью РИК Николас Иоаннидис назвал начало ноября ожидаемым сроком завершения работ.",
+      "detail": "Министр также высказал ожидание вступления в 2027 году. Шесть действий из интервью и шесть областей проекта в реестре описывают разные вещи.",
+      "impact": "Заявление уточняет планы властей. Фактическое выполнение требует отдельного подтверждения.",
+      "refs": [
+        18
+      ]
+    },
+    {
+      "id": "med9",
+      "date": "2026-10-07",
+      "discovered": "",
+      "type": "politics",
+      "grade": "B",
+      "title": "Средиземноморские страны ЕС поддержали продвижение Кипра",
+      "summary": "Девять стран MED9 в совместной декларации приветствовали положительный отчёт и начало обсуждений в Совете.",
+      "detail": "Декларация принята в Сплите 7 октября. Страны призвали своевременно завершить оставшиеся этапы.",
+      "impact": "Политическая поддержка нескольких стран повышает шансы договориться. Для решения необходимо единогласие.",
+      "refs": [
+        16,
+        17
+      ]
+    },
+    {
+      "id": "report",
+      "date": "2026-10-05",
+      "discovered": "",
+      "type": "procedure",
+      "grade": "A",
+      "title": "Совет зарегистрировал отчёт о выполнении планов",
+      "summary": "В реестре опубликована карточка ST 13957/26.",
+      "detail": "5 октября зарегистрированы название и номер документа. Полный текст отчёта закрыт.",
+      "impact": "Оценить выполнение отдельных рекомендаций по названию документа нельзя.",
+      "refs": [
+        15
+      ]
+    },
+    {
+      "id": "recommendations",
+      "date": "2026-10-01",
+      "discovered": "",
+      "type": "politics",
+      "grade": "B",
+      "title": "Кипр заявил о выполнении рекомендаций",
+      "summary": "Иоаннидис сообщил о готовности перейти к политическому согласованию.",
+      "detail": "Заявление сделано 1 октября, сообщение правительства опубликовано 2 октября.",
+      "impact": "Позиция правительства Кипра уточняет ход подготовки. Завершение процедуры зависит от Совета ЕС.",
+      "refs": [
+        14
+      ]
+    },
+    {
+      "id": "september",
+      "date": "2026-09-15",
+      "discovered": "",
+      "type": "procedure",
+      "grade": "A",
+      "title": "Страновой отчёт поступил в рабочую группу",
+      "summary": "Материалы встречи Совета ЕС включают шенгенский отчёт по Кипру.",
+      "detail": "Отчёт указан в документах рабочей группы по шенгенским вопросам от 15 сентября.",
+      "impact": "Досье перешло к обсуждению в Совете.",
+      "refs": [
+        13
+      ]
+    },
+    {
+      "id": "commission",
+      "date": "2026-07-14",
+      "discovered": "",
+      "type": "technical",
+      "grade": "A / B",
+      "title": "Еврокомиссия положительно оценила техническую подготовку",
+      "summary": "Комитет дал положительное заключение 26 июня. Страновой отчёт принят 14 июля.",
+      "detail": "О ходе оценки Комиссия сообщила на брифинге 15 июля.",
+      "impact": "Положительная техническая оценка позволяет продвигаться к политическому решению.",
+      "refs": [
+        12
+      ]
+    },
+    {
+      "id": "president",
+      "date": "2026-05-21",
+      "discovered": "",
+      "type": "politics",
+      "grade": "B",
+      "title": "Президент Кипра обозначил сроки политического решения",
+      "summary": "Президент ожидал политического решения в конце 2026-го или начале 2027 года.",
+      "detail": "Эта оценка прозвучала в официальном заявлении от 21 мая.",
+      "impact": "Заявление отражает ожидания Никосии на момент выступления.",
+      "refs": [
+        11
+      ]
+    },
+    {
+      "id": "sis",
+      "date": "2023-04-25",
+      "discovered": "",
+      "type": "technical",
+      "grade": "A",
+      "title": "Совет ЕС разрешил применение SIS на Кипре",
+      "summary": "Решение 2023/870 распространило на Кипр положения о Шенгенской информационной системе.",
+      "detail": "Акт принят 25 апреля. Кипр начал применять положения о SIS 25 июля 2023 года.",
+      "impact": "Подключение к обмену информацией стало практическим этапом интеграции. Пограничные проверки сохраняются.",
+      "refs": [
+        9,
+        10
+      ]
+    }
+  ],
+  "people": [
+    {
+      "name": "Кипр",
+      "role": "Заявитель",
+      "summary": "Правительство добивается полного участия. 13 ноября президент заявил о выполнении технических предпосылок и отсутствии отрицательных реакций со стороны государств.",
+      "grade": "B",
+      "refs": [
+        33,
+        14
+      ]
+    },
+    {
+      "name": "Еврокомиссия",
+      "role": "Техническая оценка",
+      "summary": "Комиссия положительно оценила подготовку и готовит для министров сообщение о применении шенгенских правил на острове.",
+      "grade": "A / B",
+      "refs": [
+        12,
+        0
+      ]
+    },
+    {
+      "name": "Греция",
+      "role": "Поддержка июльского ориентира",
+      "summary": "Премьер Кириакос Мицотакис публично выразил надежду на вступление 1 июля 2027 года, в начале греческого председательства.",
+      "grade": "B",
+      "refs": [
+        6
+      ]
+    },
+    {
+      "name": "Средиземноморская группа MED9",
+      "role": "Коллективная позиция",
+      "summary": "Греция, Испания, Италия, Кипр, Мальта, Португалия, Словения, Франция и Хорватия приветствовали продвижение досье. Общую дату в декларации не указали.",
+      "grade": "B",
+      "refs": [
+        16
+      ]
+    },
+    {
+      "name": "Австрия, Нидерланды и Польша",
+      "role": "Позиции требуют подтверждения",
+      "summary": "В прессе обсуждают возможную осторожность этих стран. Публичного обязательства голосовать против или подтверждённого вето мониторинг не выявил.",
+      "grade": "C",
+      "refs": [
+        5
+      ]
+    },
+    {
+      "name": "Великобритания",
+      "role": "Суверенные базы",
+      "summary": "Лондон и ЕС подтвердили намерение завершить выполнение протокола о базах. Открыт вопрос организации проверок в Пергамосе и Стровилии.",
+      "grade": "B / C",
+      "refs": [
+        4,
+        27,
+        38
+      ]
+    },
+    {
+      "name": "Турция",
+      "role": "Дипломатический контекст",
+      "summary": "Анкара влияет на переговоры об урегулировании на острове. Турция не участвует в голосовании Совета ЕС. Фидан выступал против увязки кипрского вопроса с модернизацией таможенного союза.",
+      "grade": "A / C",
+      "refs": [
+        24,
+        26
+      ]
+    },
+    {
+      "name": "Кипрские общины и ООН",
+      "role": "Зелёная линия",
+      "summary": "Лидеры общин договорились о двух новых переходах при посредничестве ООН. Отдельно предстоит определить, как будет работать учёт въездов и выездов.",
+      "grade": "A",
+      "refs": [
+        20,
+        29
+      ]
+    }
+  ]
+}

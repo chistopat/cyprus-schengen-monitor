@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://chistopat.github.io/cyprus-schengen-monitor/sitemap.xml
